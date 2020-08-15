@@ -26,6 +26,8 @@ function linkAction() {
 }
 navLink.forEach(n => n.addEventListener("click", linkAction));
 
+// ADD the Scroll Point for Active
+
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
   origin: "top",

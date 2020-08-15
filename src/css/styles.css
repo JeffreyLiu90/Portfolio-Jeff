@@ -189,17 +189,18 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
+
   background-color: var(--first-colour);
 }
 
 .nav__logo {
   color: var(--second-colour);
-  font-size: 1.3rem;
+  font-size: 1.8rem;
 }
 
 .nav__toggle {
   color: var(--second-colour);
-  font-size: 1.5rem;
+  font-size: 2rem;
   cursor: pointer;
 }
 
@@ -210,7 +211,7 @@ img {
   width: 100%;
   height: 0.18rem;
   left: 0;
-  top: 2rem;
+  top: 2.2rem;
   background-color: var(--first-colour);
 }
 
@@ -370,6 +371,9 @@ img {
   cursor: pointer;
 }
 
+.hero {
+  height: 265px;
+}
 .work__img img:hover {
   transform: scale(1.1);
 }
@@ -384,12 +388,16 @@ img {
   line-height: 30px;
   margin-bottom: var(--mb-1);
   padding: 1px;
+  font-size: 1.2rem;
 }
 
 .contact-title {
   color: var(--first-colour);
 }
 
+.contact-font {
+  text-decoration: underline;
+}
 /* .contact__input {
   width: 100%;
   font-size: var(--normal-font-size);
@@ -433,7 +441,7 @@ img {
 } */
 
 /* Media Queries */
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) {
   body {
     margin: 0;
   }
@@ -491,20 +499,18 @@ img {
   .home__social-icon {
     margin-bottom: 0;
     margin-right: var(--mb-4);
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .home__img {
     width: 457px;
-    bottom: 35%;
+    bottom: 20%;
   }
-
-  .home__title {
-    font-size: var(--extra-large-font-size);
-  }
-
   .section-title {
     font-size: var(--big-font-size);
+  }
+  .home__title {
+    font-size: var(--extra-large-font-size);
   }
 
   .about__container,
@@ -519,7 +525,7 @@ img {
   }
 
   .work__container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     column-gap: 2rem;
   }
@@ -569,12 +575,12 @@ img {
 }
 
 /* Ipad */
-@media screen and (min-width: 422px) and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 422px) {
   .home__img {
     position: absolute;
     right: 0;
     bottom: 375px;
-    width: 350px;
+    width: 400px;
   }
 
   .home__social-icon {
@@ -582,10 +588,6 @@ img {
   }
   .nav__toggle {
     display: inline-block;
-  }
-
-  .home__title {
-    font-size: var(--big-font-size);
   }
 
   .nav__menu {
