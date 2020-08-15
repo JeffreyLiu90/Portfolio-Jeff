@@ -468,6 +468,16 @@ img {
     padding-top: 0;
   }
 
+  .active::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0.25rem;
+    left: 0;
+    top: 1.6rem;
+    background-color: var(--first-colour);
+  }
+
   .nav__item {
     margin-left: var(--mb-5);
     margin-bottom: 0;
@@ -530,6 +540,9 @@ img {
     column-gap: 2rem;
   }
 
+  .hero {
+    height: 374px;
+  }
   .contact__form {
     width: 360px;
   }
@@ -623,4 +636,97 @@ img {
   .skills__img {
     height: 22rem;
   }
+}
+
+/* Work Image Animation */
+
+.item {
+  position: relative;
+  background: #ffbc00;
+  overflow: hidden;
+}
+
+.item::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background: inherit;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(2) translateX(-57%) translateY(-75%) rotate(-28deg);
+  transition: transform 3s cubic-bezier(0.2, 1, 0.3, 1);
+}
+.item:hover:after {
+  transform: scale(2) translateX(0) translateY(0) rotate(-28deg);
+}
+.item:hover .item-image {
+  transform: scale(1.2);
+}
+.item:hover .item-text {
+  opacity: 1;
+  transform: translateY(0);
+}
+.item-image {
+  height: auto;
+  transform: translateZ(0);
+  display: block;
+  transition: 750ms cubic-bezier(0.2, 1, 0.3, 1);
+  border: #333 0.6px solid;
+}
+.item-image:before {
+  content: "";
+  display: block;
+  padding-top: 75%;
+  overflow: hidden;
+}
+/* .item-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  line-height: 0;
+} */
+.item-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  text-align: center;
+  z-index: 1;
+  color: white;
+  transform: translateY(-20%);
+  transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1),
+    transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
+  transition-delay: 300ms;
+}
+.item-text-wrap {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.item-text-title {
+  font-size: 2rem;
+  padding: 0 1rem;
+  margin: 5px;
+}
+.item-text-category {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  opacity: 0.7;
+  margin: 0;
+  color: white;
+}
+
+.appname {
+  color: white;
+}
+.appname:hover {
+  color: #492bb6;
 }
