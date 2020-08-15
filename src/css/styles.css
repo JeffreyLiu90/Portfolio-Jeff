@@ -508,3 +508,22 @@ img {
     right: 10%;
   }
 }
+
+/* Iphone X */
+@media screen and (max-width: 375px) {
+  .home__img {
+    position: absolute;
+    right: 0;
+    bottom: 175px;
+    width: 205px;
+  }
+
+  .home__social-icon {
+    font-size: 1.75rem;
+  }
+
+  .footer {
+    width: 138%;
+    margin-left: -50px;
+  }
+}
