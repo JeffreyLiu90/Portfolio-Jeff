@@ -148,14 +148,22 @@ img {
 @media screen and (max-width: 768px) {
   .nav__menu {
     position: fixed;
-    top: var(--header-height);
+    /* top: var(--header-height); */
+    border-radius: 0.5rem;
+    top: 32px;
+    text-align: center;
+    margin-top: 1.2rem;
     right: -100%;
-    width: 80%;
+    width: 50%;
     height: 100%;
     padding-bottom: 2rem;
     background-color: var(--second-colour);
     transition: 0.5s;
   }
+}
+
+.nav__list {
+  margin-top: var(--mb-1);
 }
 
 .nav__item {
@@ -185,6 +193,7 @@ img {
 
 .nav__logo {
   color: var(--second-colour);
+  font-size: 1.3rem;
 }
 
 .nav__toggle {
@@ -524,8 +533,8 @@ img {
   }
 }
 
-/* Iphone X */
-@media screen and (max-width: 375px) {
+/* Iphone X and Pixel 2 */
+@media screen and (max-width: 420px) {
   .home__img {
     position: absolute;
     right: 0;
@@ -538,7 +547,64 @@ img {
   }
 
   .footer {
+    height: 10vh;
     width: 138%;
     margin-left: -50px;
+    margin-bottom: 0;
+  }
+
+  .contact {
+    height: 10px;
+  }
+}
+
+/* Ipad */
+@media screen and (max-width: 768px) and (min-width: 422px) {
+  .home__img {
+    position: absolute;
+    right: 0;
+    bottom: 375px;
+    width: 400px;
+  }
+
+  .home__social-icon {
+    font-size: 2.75rem;
+  }
+  .nav__toggle {
+    display: inline-block;
+  }
+
+  .nav__menu {
+    /* position: fixed; */
+    /* top: var(--header-height); */
+    border-radius: 0.5rem;
+    top: 36px;
+
+    margin-top: 1.2rem;
+
+    width: 50%;
+    height: 100%;
+    padding-bottom: 2rem;
+    background-color: var(--second-colour);
+    transition: 0.5s;
+  }
+
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    line-height: 80px;
+  }
+  .nav__link {
+    color: #fff;
+    text-align: center;
+  }
+
+  .skills__section {
+    padding-left: 1.8rem;
+  }
+
+  .skills__img {
+    height: 22rem;
   }
 }
