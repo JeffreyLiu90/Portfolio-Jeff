@@ -39,13 +39,19 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#" class="nav__link active">Home</a>
+              <a href="#home" class="nav__link active">Home</a>
             </li>
-            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Work</a></li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Contact</a>
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
             </li>
           </ul>
         </div>
@@ -83,105 +89,151 @@
           <img src="./src/img/profile.png" alt="" />
         </div>
       </section>
-    </main>
-    <!-- About -->
 
-    <section class="about section" id="about">
-      <h2 class="section-title">About</h2>
+      <!-- About -->
 
-      <div class="about__container bd-grid">
-        <div class="about__img">
-          <img src="./src/img/avatar.jpg" alt="" />
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="./src/img/avatar.jpg" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">I am Jeff</h2>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              autem blanditiis earum harum alias excepturi aperiam aliquam
+              fugiat laborum sed!
+            </p>
+          </div>
         </div>
+      </section>
 
-        <div>
-          <h2 class="about__subtitle">I am Jeff</h2>
-          <p class="about__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi autem
-            blanditiis earum harum alias excepturi aperiam aliquam fugiat
-            laborum sed!
-          </p>
-        </div>
-      </div>
-    </section>
+      <!-- Skills -->
 
-    <!-- Skills -->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
 
-    <section class="skills section" id="skills">
-      <h2 class="section-title">Skills</h2>
-
-      <div class="skills__container bd-grid">
-        <div>
-          <h2 class="skills__subtitle">Profesional Skills</h2>
-          <p class="skills__text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
-            optio id vero amet, alias architecto consectetur error eum eaque
-            sit.
-          </p>
-          <div class="skills__data">
-            <div class="skills__names">
-              <i class="bx bxl-html5 skills__icon"></i>
-              <span class="skills__name">HTML5</span>
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Profesional Skills</h2>
+            <p class="skills__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+              optio id vero amet, alias architecto consectetur error eum eaque
+              sit.
+            </p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <div>
+                <span class="skills__percentage">95%</span>
+              </div>
             </div>
-            <div class="skills__bar skills__html"></div>
-            <div>
-              <span class="skills__percentage">95%</span>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-css3 skills__icon"></i>
+                <span class="skills__name">CSS3</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
             </div>
-          </div>
-          <div class="skills__data">
-            <div class="skills__names">
-              <i class="bx bxl-css3 skills__icon"></i>
-              <span class="skills__name">CSS3</span>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage">65%</span>
+              </div>
             </div>
-            <div class="skills__bar skills__css"></div>
-            <div>
-              <span class="skills__percentage">85%</span>
-            </div>
-          </div>
-          <div class="skills__data">
-            <div class="skills__names">
-              <i class="bx bxl-javascript skills__icon"></i>
-              <span class="skills__name">JAVASCRIPT</span>
-            </div>
-            <div class="skills__bar skills__js"></div>
-            <div>
-              <span class="skills__percentage">65%</span>
-            </div>
-          </div>
-          <div class="skills__data">
-            <div class="skills__names">
-              <i class="bx bxl-nodejs skills__icon"></i>
-              <span class="skills__name">Node.js</span>
-            </div>
-            <div class="skills__bar skills__nodejs"></div>
-            <div>
-              <span class="skills__percentage">85%</span>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-nodejs skills__icon"></i>
+                <span class="skills__name">Node.js</span>
+              </div>
+              <div class="skills__bar skills__nodejs"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
             </div>
           </div>
           <div>
             <img src="./src/img/working.jpg" alt="" />
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Work -->
-    <section class="work section" id="work">
-      <h2 class="section-title">Work</h2>
+      <!-- Work -->
+      <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
 
-      <div class="work__container bd-grid">
-        <div class="work__img">
-          <img src="./src/img/kitchenhero2.png" alt="" />
+        <div class="work__container bd-grid">
+          <div class="work__img">
+            <img src="./src/img/kitchenhero2.png" alt="" />
+          </div>
+          <div class="work__img">
+            <img src="./src/img/scheduler1.png" alt="" />
+          </div>
+          <div class="work__img">
+            <img src="./src/img/ramenempire.png" alt="" />
+          </div>
+          <div class="work__img">
+            <img src="./src/img/kitchenhero2.png" alt="" />
+          </div>
+          <div class="work__img">
+            <img src="./src/img/scheduler1.png" alt="" />
+          </div>
+          <div class="work__img">
+            <img src="./src/img/ramenempire.png" alt="" />
+          </div>
         </div>
-        <div class="work__img">
-          <img src="./src/img/scheduler1.png" alt="" />
+      </section>
+
+      <!-- Contact -->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <form action="" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="email" placeholder="Email" class="contact__input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+              placeholder="Input text here.."
+            ></textarea>
+
+            <input
+              type="button"
+              value="Contact Me"
+              class="contact__button button"
+            />
+          </form>
         </div>
-        <div class="work__img">
-          <img src="./src/img/ramenempire.png" alt="" />
-        </div>
-      </div>
-    </section>
+      </section>
+    </main>
     <!-- Footer -->
+
+    <footer class="footer">
+      <p class="footer__title">Jeffrey</p>
+      <div class="footer__social">
+        <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+      </div>
+      <p>&#169; 2020 copyright all right reserved</p>
+    </footer>
 
     <!-- Scroll Reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
