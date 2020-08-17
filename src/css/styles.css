@@ -642,8 +642,9 @@ img {
 
 .item {
   position: relative;
-  background: #ffbc00;
+  background: var(--first-colour);
   overflow: hidden;
+  border-radius: 0.5rem;
 }
 
 .item::after {
@@ -697,6 +698,7 @@ img {
   bottom: 0;
   right: 0;
   opacity: 0;
+
   text-align: center;
   z-index: 1;
   color: white;
