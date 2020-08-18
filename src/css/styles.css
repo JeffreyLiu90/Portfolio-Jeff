@@ -254,6 +254,10 @@ img {
   font-size: 1.5rem;
   color: gray;
 }
+
+.home-arrow-icon {
+  padding-left: 1rem;
+}
 .home__social-icon:hover {
   color: var(--first-color);
 }
@@ -285,7 +289,7 @@ img {
   display: inline-block;
   background-color: var(--first-colour);
   color: #fff;
-  padding: 0.75rem 2.5rem;
+  padding: 0.75rem 2rem;
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
 }
