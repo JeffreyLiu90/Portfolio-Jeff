@@ -235,7 +235,11 @@ img {
 }
 .home__title {
   font-size: var(--big-font-size);
-  margin-bottom: var(--mb-5);
+  margin-bottom: var(--mb-1);
+}
+
+.home-second-title {
+  font-size: 1.6rem;
 }
 .home__title-color {
   color: var(--first-colour);
@@ -248,7 +252,7 @@ img {
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
-  color: var(--second-color);
+  color: gray;
 }
 .home__social-icon:hover {
   color: var(--first-color);
@@ -514,11 +518,12 @@ img {
 
   .home__data {
     align-self: flex-end;
+    margin-top: 1rem;
   }
 
   .home__social {
     padding-top: 0;
-    padding-bottom: 2.5rem;
+    padding-bottom: 8.5rem;
     flex-direction: row;
     align-self: flex-end;
   }
@@ -531,7 +536,8 @@ img {
 
   .home__img {
     width: 457px;
-    bottom: 20%;
+    bottom: 30%;
+    margin-right: 5px;
   }
   .section-title {
     font-size: var(--big-font-size);
@@ -589,7 +595,7 @@ img {
 @media screen and (max-width: 420px) {
   .home__img {
     position: absolute;
-    right: 0;
+    right: 5%;
     bottom: 175px;
     width: 205px;
   }
