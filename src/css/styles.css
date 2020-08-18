@@ -96,7 +96,7 @@ img {
 /* Class CSS */
 .section-title {
   position: relative;
-  font-size: var(--h2-font-size);
+  font-size: 1.5rem;
   color: var(--first-colour);
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
@@ -548,7 +548,7 @@ img {
   }
 
   .skills__img img {
-    height: 470px;
+    height: 400px;
     width: 590px;
     border-radius: 0.5rem;
   }
@@ -774,7 +774,7 @@ img {
 }
 .skills__subtitle {
   color: var(--first-colour);
-  font-size: 1rem;
+  font-size: 1.15rem;
   margin-bottom: var(--mb-2);
   /* margin-bottom: 40px; */
 }
@@ -782,9 +782,9 @@ img {
 .skills__name {
   display: inline-block;
   font-size: 1rem;
-  margin-right: var(--mb-2);
-  margin-bottom: var(--mb-3);
-  padding: 0.25rem 0.5rem;
+  margin-right: 0.1rem;
+  margin-bottom: var(--mb-2);
+  padding: 0.15rem 0.4rem;
   background-color: var(#fff);
   border-radius: 0.25rem;
   border: 0.2px solid rgba(0, 0, 0, 0.1);
@@ -792,5 +792,5 @@ img {
 }
 .skills__name:hover {
   background-color: var(--first-colour);
-  color: var(#fff);
+  color: #fff;
 }
