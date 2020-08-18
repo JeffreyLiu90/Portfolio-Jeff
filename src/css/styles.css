@@ -88,6 +88,11 @@ img {
   display: block;
 }
 
+.skills__container {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
 /* Class CSS */
 .section-title {
   position: relative;
@@ -530,6 +535,12 @@ img {
     text-align: initial;
   }
 
+  .skills__img img {
+    height: 470px;
+    width: 590px;
+    border-radius: 0.5rem;
+  }
+
   .about__img img {
     width: 300px;
   }
@@ -739,4 +750,28 @@ img {
     width: 500px;
     height: 500px;
   }
+}
+
+.skills__container {
+  row-gap: 2rem;
+}
+.skills__subtitle {
+  color: var(--first-colour);
+  /* margin-bottom: 40px; */
+}
+
+.skills__name {
+  display: inline-block;
+  font-size: 1rem;
+  margin-right: var(--mb-2);
+  margin-bottom: var(--mb-3);
+  padding: 0.25rem 0.5rem;
+  background-color: var(#fff);
+  border-radius: 0.25rem;
+  border: 0.2px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.skills__name:hover {
+  background-color: var(--first-colour);
+  color: var(#fff);
 }
