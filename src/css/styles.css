@@ -732,3 +732,11 @@ img {
 .appname:hover {
   color: #492bb6;
 }
+
+@media screen and (min-width: 1768px) {
+  .home__img {
+    margin-bottom: 30px;
+    width: 500px;
+    height: 500px;
+  }
+}
