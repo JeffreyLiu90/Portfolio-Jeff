@@ -254,6 +254,20 @@ img {
   color: var(--first-color);
 }
 
+.home__scroll {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-self: flex-end;
+  padding-bottom: var(--mb-3);
+  margin-left: 600px;
+}
+.home__scroll-link {
+  /* writing-mode: vertical-lr; */
+  /* transform: rotate(-180deg); */
+  color: var(--white-color);
+}
+
 /* NEED */
 .home__img {
   position: absolute;
