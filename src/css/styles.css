@@ -565,6 +565,12 @@ img {
     column-gap: 2rem;
   }
 
+  .item-icon {
+    font-size: 2.3rem;
+    color: #fff;
+    margin-top: 4000px;
+  }
+
   .hero {
     height: 374px;
   }
@@ -738,6 +744,7 @@ img {
   top: 50%;
   transform: translateY(-50%);
 }
+
 .item-text-title {
   font-size: 2rem;
   padding: 0 1rem;
