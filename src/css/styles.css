@@ -619,6 +619,22 @@ img {
   .contact {
     height: 10px;
   }
+
+  .work {
+    width: 120%;
+    margin-left: -28px;
+  }
+  /* .hero {
+    width: 600px;
+  } */
+
+  /* .work__img {
+    width: 600px;
+  } */
+
+  /* .item {
+    width: 600px;
+  } */
 }
 
 /* Ipad */
