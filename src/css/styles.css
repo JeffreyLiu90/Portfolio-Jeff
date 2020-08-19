@@ -388,6 +388,8 @@ img {
 .work__img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
+  border: solid;
+
   overflow: hidden;
 }
 
@@ -694,7 +696,7 @@ img {
   position: relative;
   background: var(--first-colour);
   overflow: hidden;
-  border-radius: 0.55rem;
+  border-radius: 0.5rem;
 }
 
 .item::after {
