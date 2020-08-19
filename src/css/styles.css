@@ -388,7 +388,6 @@ img {
 .work__img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
-  border: solid;
 
   overflow: hidden;
 }
@@ -818,7 +817,7 @@ img {
 
 .skills__name {
   display: inline-block;
-  font-size: 1rem;
+  font-size: 0.95rem;
   margin-right: 0.1rem;
   margin-bottom: var(--mb-2);
   padding: 0.15rem 0.4rem;
