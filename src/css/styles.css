@@ -398,6 +398,7 @@ img {
 
 .hero {
   height: 265px;
+  border-radius: 0.5rem;
 }
 .work__img img:hover {
   transform: scale(1.1);
@@ -677,7 +678,7 @@ img {
   position: relative;
   background: var(--first-colour);
   overflow: hidden;
-  border-radius: 0.5rem;
+  border-radius: 0.55rem;
 }
 
 .item::after {
@@ -702,6 +703,7 @@ img {
 .item:hover .item-text {
   opacity: 1;
   transform: translateY(0);
+  border-radius: 0.5rem;
 }
 .item-image {
   height: auto;
@@ -731,7 +733,7 @@ img {
   bottom: 0;
   right: 0;
   opacity: 0;
-
+  border-radius: 0.5rem;
   text-align: center;
   z-index: 1;
   color: white;
@@ -745,6 +747,7 @@ img {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  border-radius: 0.5rem;
 }
 .item-text-title {
   font-size: 2rem;
@@ -759,17 +762,23 @@ img {
   color: white;
 }
 
-.github-link-icon {
+.work-icon {
   font-size: 2rem;
   color: #fff;
+  padding-left: var(--mb-1);
+}
+
+.work-icon > i:hover {
+  color: #492bb6;
+  transform: scale(1.5);
 }
 
 .appname {
   color: white;
 }
-.appname:hover {
+/* .appname:hover {
   color: #492bb6;
-}
+} */
 
 @media screen and (min-width: 1768px) {
   .home__img {
