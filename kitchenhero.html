@@ -4,9 +4,155 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Jeffrey Liu | Kitchen Hero</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/src/css/styles.css" />
+    <link rel="stylesheet" href="/src/css/project-styles.css" />
+
+    <!-- Box Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Jeffrey Liu Portfolio</title>
   </head>
   <body>
-    <h1>This is Kitchen Hero</h1>
+    <!-- Header -->
+    <header class="header-1">
+      <nav class="nav">
+        <div>
+          <a href="#" class="nav__logo"></a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="https://www.canva.com/design/DAEDX8Ndxng/q8blyv9PWCA38Bd6yAc9NQ/view?utm_content=DAEDX8Ndxng&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
+                class="nav__link"
+                target="_blank"
+                >Resume</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main-1">
+      <!-- Picture -->
+
+      <section class="project-section-picture">
+        <div class="project-picture">
+          <img src="./src/img/kitchenhero2-min.jpg" alt="" />
+        </div>
+
+        <div class="project-info">
+          <div class="short-info-container">
+            <h2 class="section-title-project">
+              Kitchen Hero
+            </h2>
+            <p>
+              The Recipe app that can help transform you into the ultimate home
+              chef
+            </p>
+          </div>
+
+          <div class="tech-line">.</div>
+
+          <div class="tech-stack">
+            <p style="font-weight: bold;">Tech</p>
+            <p>
+              PostgreSQL / Express / Node.js / ReactJS/ Material-UI /
+              Spoonacular API / Clarifai API / Auth0 API / Google Translate API
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="project-section summary">
+        <div class="summary-content-container">
+          <h2 class="section-title-project">
+            Project Summary
+          </h2>
+          <p>
+            KitchenHero is a Full-stack web application that allows users to
+            search for both food and cocktail recipes based on the ingredients
+            that they have by either typing them in the search bar, or by
+            uploading a picture of their food product.
+
+            <br /><br />This app was created during the beginning of the Covid
+            pandemic, when the lock-down and social-distancing rules were
+            strict, resulting in most people having to stay at home. This also
+            resulted in more people cooking at home, instead of eating out.
+            <br /><br />
+            This app was designed for not only people that have experience
+            cooking, but also individuals who are beginners. Instead of
+            scavaging through countless websites for different recipes, this app
+            solves this problem, and makes best use of any left over ingredients
+            in the pantry.
+          </p>
+        </div>
+      </section>
+      <section class="project-section-challenge">
+        <br />
+        <h2 class="section-title-project">
+          Challenges
+        </h2>
+        <div class="challenge-container">
+          <p>
+            As a learning developer, this was the first project that was done
+            completely remote with two other team mates due to Covid, which was
+            quite challenging. We had 1.5 weeks to complete this project and at
+            the beginning of the project, most of us were very new and
+            inexperienced with React, let alone building a full-stack
+            application with new technologies. However, we were able to overcome
+            the challenges by finishing the project on time, and through
+            consistent communication via Zoom and Slack. We planned extensively,
+            and had great team chemistry.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Main JS -->
+    <script src="/src/js/main.js"></script>
   </body>
 </html>
+
+<!--  -->
