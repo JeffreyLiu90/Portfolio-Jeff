@@ -108,7 +108,7 @@ img {
 
   justify-content: center;
 
-  margin-bottom: var(--mb-3);
+  margin-bottom: var(--mb-2);
 }
 
 .project-section-picture {
@@ -135,10 +135,11 @@ img {
   margin-left: -20px;
   border-top: 1px solid lightgray;
   width: 20rem;
-  margin-bottom: var(--mb-3);
+  margin-bottom: var(--mb-1);
 }
 
 .tech-stack {
+  margin-top: var(--mb-1);
   margin-bottom: var(--mb-3);
 }
 /* Summary Section */
@@ -158,7 +159,12 @@ img {
 
 /* Tech Section */
 
+/* Features */
+
+/* Challenge Area */
+
 .project-section-challenge {
+  background-color: #f6f7fb;
   width: 135%;
   margin-left: -49px;
 
