@@ -59,3 +59,10 @@ sr.reveal(".item", { interval: 200 });
 
 /*SCROLL CONTACT*/
 sr.reveal(".contact__input", { interval: 200 });
+
+// Kitchen Hero Page
+sr.reveal(".info-content", { delay: 400 });
+sr.reveal(".section-title-project", { delay: 100 });
+sr.reveal(".tech-stack", { delay: 400 });
+sr.reveal(".project-picture", { delay: 400 });
+sr.reveal(".gif-picture", { delay: 400 });
