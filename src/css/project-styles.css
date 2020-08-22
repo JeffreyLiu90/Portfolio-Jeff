@@ -12,6 +12,10 @@
   --normal-font-size: 0.938rem;
 }
 
+html {
+  height: 100vh;
+}
+
 @media screen and(min-width:768px) {
   :root {
     --big-font-size: 3.5rem;
@@ -166,6 +170,10 @@ img {
   align-items: center; */
 }
 
+.features-container > ul {
+  list-style: circle;
+}
+
 .gif-picture {
   margin-bottom: var(--mb-4);
   height: 12.2rem;
@@ -177,12 +185,14 @@ img {
   background-color: #f6f7fb;
   width: 135%;
   margin-left: -49px;
+  bottom: 0;
 
   height: 35rem;
 }
 
 .challenge-container {
   margin-left: 50px;
+
   width: 279px;
   justify-content: center;
   align-items: center;
