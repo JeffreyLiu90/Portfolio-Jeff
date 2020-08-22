@@ -4,9 +4,160 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Jeffrey Liu | Ramen Empire</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/src/css/styles.css" />
+    <link rel="stylesheet" href="/src/css/project-styles.css" />
+
+    <!-- Box Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Jeffrey Liu Portfolio</title>
   </head>
   <body>
-    <h1>This is Ramen Empire</h1>
+    <!-- Header -->
+    <header class="header-1">
+      <nav class="nav">
+        <div>
+          <a href="#" class="nav__logo"></a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="https://www.canva.com/design/DAEDX8Ndxng/q8blyv9PWCA38Bd6yAc9NQ/view?utm_content=DAEDX8Ndxng&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
+                class="nav__link"
+                target="_blank"
+                >Resume</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main-1">
+      <!-- Picture -->
+
+      <section class="project-section-picture">
+        <div class="project-picture">
+          <img src="./src/img/ramenwhite.jpg" alt="" />
+        </div>
+
+        <div class="project-info">
+          <div class="short-info-container">
+            <h2 class="section-title-project">
+              Ramen Empire
+            </h2>
+            <p class="info-content">
+              Order delicious Ramen from the comfort of wherever you are!
+            </p>
+          </div>
+
+          <div class="tech-line">.</div>
+
+          <div class="tech-stack">
+            <p style="font-weight: bold;">Tech</p>
+            <p>
+                HTML / CSS /  JS / Node.js / jQuery / Ajax / Express / Twilio API / Google Map API
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="project-section summary">
+        <div class="summary-content-container">
+          <h2 class="section-title-project">
+            Project Summary
+          </h2>
+          <p class="info-content">
+              Ramen Empire is a full-stack food ordering web application, where the user can order food items from the comfort of where ever they are located. The user is able to check out once they ordered their items, and receive a text that tells them how long it will take for the food to be prepared. On the last page, a confirmation number will be provided, and a Google Map indicating the distance between the user and the restaurant, and the duration it'd take for pick up based on different transportation methods, such as walking, biking or driving. <br> <br>The purpose of this project was to create a full-stack clone of the famous food ordering app called Ritual. As the concept of ordering food online has become popular recently, my team decided that learning how to build this type of application would be useful and beneficial for our own learning as well.
+          </p>
+        </div>
+      </section>
+      <section class="project-section-features">
+        <br />
+        <h2 class="section-title-project">
+          Features
+        </h2>
+        <div class="features-container info-content">
+          <ul>
+            <li>
+             Order food item from the menu list and its quantity
+            </li>
+            <li>
+             Insert personal and bank information on the payment page for the order
+            </li>
+            <li>Receive a text indicating the food preparation time</li>
+            <li>View Google map indicating the distance from the user's location to the restaurant</li>
+            <li>View the duration and direction to the restaurant via walking, biking or driving</li>
+
+          </ul>
+        </div>
+
+      </section>
+      <section class="project-section-challenge">
+        <br />
+        <h2 class="section-title-project">
+          Challenges
+        </h2>
+        <div class="challenge-container">
+          <p class="info-content">
+            As a learning developer, this was the first project that was done
+            completely remote with two other team mates due to Covid, which was
+            quite challenging. We had 1.5 weeks to complete this project and at
+            the beginning of the project, most of us were very new and
+            inexperienced with React, let alone building a full-stack
+            application with new technologies. However, we were able to overcome
+            the challenges by finishing the project on time, and through
+            consistent communication via Zoom and Slack. We planned extensively,
+            and had great team chemistry.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Main JS -->
+    <script src="/src/js/main.js"></script>
   </body>
 </html>
+
+<!--  -->
