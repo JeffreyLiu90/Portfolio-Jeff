@@ -160,6 +160,16 @@ img {
 /* Tech Section */
 
 /* Features */
+.features-container {
+  margin-bottom: var(--mb-4);
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.gif-picture {
+  margin-bottom: var(--mb-4);
+  height: 12.2rem;
+}
 
 /* Challenge Area */
 
