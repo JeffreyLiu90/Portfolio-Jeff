@@ -189,6 +189,14 @@ img {
 
   height: 35rem;
 }
+.project-section-challenge-long {
+  background-color: #f6f7fb;
+  width: 135%;
+  margin-left: -49px;
+  bottom: 0;
+
+  height: 45rem;
+}
 
 .challenge-container {
   margin-left: 50px;
@@ -196,6 +204,10 @@ img {
   width: 279px;
   justify-content: center;
   align-items: center;
+}
+.nav__toggle {
+  margin-right: var(--mb-2);
+  /* margin-left: -680px; */
 }
 
 /* Ipad */
