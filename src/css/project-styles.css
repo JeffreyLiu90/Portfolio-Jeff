@@ -189,6 +189,14 @@ img {
 
   height: 35rem;
 }
+.project-section-challenge-short {
+  background-color: #f6f7fb;
+  width: 135%;
+  margin-left: -49px;
+  bottom: 0;
+
+  height: 28rem;
+}
 .project-section-challenge-long {
   background-color: #f6f7fb;
   width: 135%;
