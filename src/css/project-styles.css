@@ -223,7 +223,7 @@ img {
 @media screen and (min-width: 768px) {
   .project-section-picture {
     width: 120%;
-    margin-top: 5rem;
+    margin-top: 0;
     margin-left: 20px;
     display: grid;
 
@@ -233,6 +233,13 @@ img {
   .project-picture {
     grid-area: projectpic;
     height: 300px;
+    margin-bottom: 10rem;
+  }
+
+  .project__img {
+    height: 400px;
+    width: 550px;
+    /* margin-bottom: 10rem; */
   }
 
   .project-info {
@@ -244,4 +251,96 @@ img {
     margin-right: var(--mb-2);
     /* margin-left: -680px; */
   }
+
+  .section-title-project {
+    font-size: 2.5rem;
+    margin-top: 7rem;
+    margin-bottom: var(--mb-3);
+    text-align: left;
+  }
+
+  .info-content {
+    width: 20rem;
+    text-align: left;
+  }
+
+  .section-title-project {
+    width: 400px;
+  }
+  .short-info-container {
+    line-height: 1rem;
+  }
+
+  .section-title-project::after {
+    display: none;
+  }
+  .summary-content {
+    align-items: center;
+    /* width: 60rem; */
+    /* margin-left: -5rem; */
+
+    width: 40rem;
+    margin: auto;
+  }
+
+  .summary {
+    width: 135%;
+    justify-content: center;
+  }
+
+  .summary-content-container {
+    margin-left: 3rem;
+    width: 50rem;
+  }
+
+  .summary-title {
+    margin: auto;
+    margin-top: var(--mb-2);
+    margin-bottom: var(--mb-2);
+  }
+  /* 
+  .summary-title {
+    width: 38rem;
+    margin-left: 5rem;
+    padding-left: 3rem;
+    margin-top: 2rem;
+  } */
+
+  /* Features */
+
+  .project-section-features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .features-container {
+    justify-content: center;
+
+    width: 385px;
+    padding-left: 3rem;
+  }
+  .features-title {
+    margin-top: 2rem;
+    margin-left: -10px;
+  }
+
+  .gif-container {
+    width: 407px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 3rem;
+  }
+
+  .gif-picture {
+    /* margin-left: 20px; */
+    width: 300px;
+  }
+
+  .challenges-title {
+    margin: var(--mb-2) 0 var(--mb-2) 250px;
+  }
 }
+
+/* Ipad for projects */
