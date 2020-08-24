@@ -341,6 +341,13 @@ img {
   .challenges-title {
     margin: var(--mb-2) 0 var(--mb-2) 250px;
   }
+
+  /* Tweeter */
+  .tweeter-content {
+    top: 0;
+    height: 110px;
+    padding-bottom: 3rem;
+  }
 }
 
 /* Ipad for projects */
