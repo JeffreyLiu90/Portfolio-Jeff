@@ -367,6 +367,22 @@ img {
     justify-content: center;
     margin-left: 120px;
   }
+
+  .ramen-title {
+    margin: 0;
+    margin-left: 180px;
+  }
 }
 
-/* Ipad for projects */
+/* Iphone X horizontal */
+
+@media screen and (min-width: 768px) {
+  nav {
+    padding-right: var(--mb-2);
+  }
+
+  .features-ramen {
+    margin-left: 160px;
+    margin-top: var(--mb-2);
+  }
+}
