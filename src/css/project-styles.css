@@ -267,12 +267,24 @@ img {
     font-size: 2.5rem;
     margin-top: 7rem;
     margin-bottom: var(--mb-3);
-    text-align: left;
+    text-align: center;
+    padding-left: 2rem;
   }
 
   .info-content {
-    width: 20rem;
     text-align: left;
+    margin-right: 0;
+  }
+
+  .summary-content {
+    align-items: center;
+    justify-content: center;
+    /* width: 60rem; */
+    /* margin-left: -5rem; */
+
+    margin: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .section-title-project {
@@ -285,14 +297,6 @@ img {
   .section-title-project::after {
     display: none;
   }
-  .summary-content {
-    align-items: center;
-    /* width: 60rem; */
-    /* margin-left: -5rem; */
-
-    width: 40rem;
-    margin: auto;
-  }
 
   .summary {
     /* width: 135%; */
@@ -301,8 +305,8 @@ img {
   }
 
   .summary-content-container {
-    margin-left: 3rem;
-    width: 50rem;
+    margin: auto;
+    width: 100%;
   }
 
   .summary-title {
@@ -388,5 +392,56 @@ img {
   .features-ramen {
     margin-left: 160px;
     margin-top: var(--mb-2);
+  }
+}
+
+/* Ipad Horizontal */
+@media screen and (min-width: 1347px) {
+  nav {
+    padding-right: var(--mb-4);
+  }
+  .challenges-title {
+    margin: auto;
+  }
+
+  .challenges-container {
+    height: 15rem;
+  }
+
+  .project-section-picture {
+    width: 100%;
+  }
+
+  .project-name {
+    text-align: left;
+    padding-left: 0;
+  }
+  .project-section {
+    width: 100vw;
+  }
+
+  .summary-content-container {
+    padding-left: 13rem;
+    padding-right: 13rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .features-title {
+    text-align: start;
+  }
+  .features-container {
+    padding-left: 15rem;
+    padding-right: 5rem;
+  }
+
+  .gif-picture {
+    height: 100%;
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  .challenges-title {
+    margin-bottom: var(--mb-2);
   }
 }
