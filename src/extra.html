@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/src/css/styles.css" />
+    <link rel="stylesheet" href="/src/css/project-styles.css" />
+
+    <!-- Box Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Jeffrey Liu Portfolio</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header-1">
+      <nav class="nav">
+        <div>
+          <a href="#" class="nav__logo"></a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="https://www.canva.com/design/DAEDX8Ndxng/q8blyv9PWCA38Bd6yAc9NQ/view?utm_content=DAEDX8Ndxng&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
+                class="nav__link"
+                target="_blank"
+                >Resume</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main-1">
+      <!-- Picture -->
+
+      <section class="project-section-picture">
+        <div class="project-picture">
+          <img src="./src/img/scheduler3.jpg" alt="" />
+        </div>
+
+        <div class="project-info">
+          <div class="short-info-container">
+            <h2 class="section-title-project">
+              Scheduler
+            </h2>
+            <p class="info-content">
+              The scheduling app to organize all your interviews
+            </p>
+          </div>
+
+          <div class="tech-line">.</div>
+
+          <div class="tech-stack">
+            <p style="font-weight: bold;">Tech</p>
+            <p>
+              ReactJS / Webpack Dev Server/ Storybook / Jest
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="project-section summary">
+        <div class="summary-content-container">
+          <h2 class="section-title-project">
+            Project Summary
+          </h2>
+          <p class="info-content">
+            The interview scheduler allows the user to book an appointment
+            between Monday-Friday, select an interviewer from the available
+            interviewers list. The user can also delete and modify their
+            appointments. This was the first React project of the course, where
+            components were built with Storybook, and tested with Jest
+          </p>
+        </div>
+      </section>
+      <section class="project-section-features">
+        <br />
+        <h2 class="section-title-project">
+          Features
+        </h2>
+        <div class="features-container info-content">
+          <ul>
+            <li>
+              User can book an interview between Monday to Friday if there is an
+              empty slot
+            </li>
+            <li>
+              User can choose the interviewer they wish to be interviewed by, if
+              they are available on that day
+            </li>
+            <li>
+              User can delete appointments made if they wish to cancel them
+            </li>
+            <li>
+              User can modify their interview by choosing a different
+              interviewer
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <img class="gif-picture" src="./src/img/scheduler.gif" alt="" />
+        </div>
+      </section>
+      <section class="project-section-challenge">
+        <br />
+        <h2 class="section-title-project">
+          Challenges
+        </h2>
+        <div class="challenge-container">
+          <p class="info-content">
+            First introduction to React was through building this web app, which
+            was a great learning curve. Due to Covid-15, we had to create this
+            project remotely, which was a challenge in itself as I was much more
+            used to working on projects in person. Also, it was my introduction
+            to using new technologies such as Storybook and Jest. As someone
+            that was relatively new to programming, learning React while being
+            remote was tough, but I was able to overcome this challenge through
+            communication and collaboration with fellow classmates, and asking
+            for mentor help whenever needed.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Main JS -->
+    <script src="/src/js/main.js"></script>
+  </body>
+</html>
+
+<!--  -->
