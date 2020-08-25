@@ -150,7 +150,7 @@ img {
 
 .summary {
   display: flex;
-  margin-bottom: var(--mb-2);
+  /* margin-bottom: var(--mb-2); */
   background-color: #f6f7fb;
   width: 135%;
   margin-left: -49px;
@@ -206,16 +206,27 @@ img {
   height: 45rem;
 }
 
-.challenge-container {
-  margin-left: 50px;
-
-  width: 279px;
+.challenges-container {
+  width: 135%;
+  text-align: center;
   justify-content: center;
   align-items: center;
+  background-color: #f6f7fb;
 }
 .nav__toggle {
   margin-right: var(--mb-2);
   /* margin-left: -680px; */
+}
+
+/* Ramen Empire */
+.features-ramen {
+  margin-bottom: var(--mb-2);
+  align-content: center;
+  justify-content: center;
+}
+
+.features-ramen-container > ul {
+  list-style: circle;
 }
 
 /* Ipad */
@@ -284,8 +295,9 @@ img {
   }
 
   .summary {
-    width: 135%;
+    /* width: 135%; */
     justify-content: center;
+    /* height: 20rem; */
   }
 
   .summary-content-container {
@@ -347,6 +359,13 @@ img {
     top: 0;
     height: 110px;
     padding-bottom: 3rem;
+  }
+
+  .features-ramen {
+    margin-bottom: var(--mb-2);
+    width: 640px;
+    justify-content: center;
+    margin-left: 120px;
   }
 }
 
