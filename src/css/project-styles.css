@@ -480,15 +480,15 @@ img {
   }
 
   .gif-img {
-    padding-top: 50px;
+    padding-top: 150px;
     height: 250px;
     width: 350px;
-    padding-left: 50px;
+    padding-left: 110px;
   }
 
   .gif-picture {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     align-content: center;
   }
