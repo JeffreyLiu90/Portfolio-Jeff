@@ -384,14 +384,28 @@ img {
 
 /* Iphone X horizontal */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   nav {
-    padding-right: var(--mb-2);
+    padding-right: var(--mb-3);
   }
 
   .features-ramen {
     margin-left: 160px;
     margin-top: var(--mb-2);
+  }
+  .project-section {
+    width: 115vw;
+  }
+
+  .features-container {
+    padding-left: 4rem;
+    padding-right: 5rem;
+  }
+
+  .gif-picture {
+    height: 100%;
+    width: 90%;
+    margin-left: 20px;
   }
 }
 
