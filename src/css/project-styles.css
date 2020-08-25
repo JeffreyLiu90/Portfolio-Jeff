@@ -475,14 +475,14 @@ img {
   .test {
     text-align: start;
     list-style: circle;
-    line-height: 2rem;
+    line-height: 1.5rem;
     width: 400px;
   }
 
   .gif-img {
     padding-top: 150px;
     height: 250px;
-    width: 350px;
+    width: 400px;
     padding-left: 110px;
   }
 
