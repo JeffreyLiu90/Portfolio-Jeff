@@ -518,6 +518,7 @@ img {
 
   .features__heading {
     margin-right: 5rem;
+    margin-bottom: 0;
   }
 
   .features__heading::after {
