@@ -16,6 +16,10 @@ html {
   height: 100vh;
 }
 
+section {
+  margin-top: var(--mb-2);
+}
+
 @media screen and(min-width:768px) {
   :root {
     --big-font-size: 3.5rem;
@@ -92,6 +96,36 @@ img {
   text-align: center;
 }
 
+.project__title {
+  position: relative;
+  font-size: 2rem;
+  color: var(--first-colour);
+
+  margin-bottom: var(--mb-4);
+  text-align: center;
+}
+
+.features__heading {
+  position: relative;
+  font-size: 1.7rem;
+  color: var(--first-colour);
+  margin-top: 1rem;
+  margin-bottom: var(--mb-4);
+  text-align: center;
+}
+
+.features__heading::after {
+  position: absolute;
+  content: "";
+  width: 120px;
+  height: 0.18rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 2rem;
+  background-color: var(--first-colour);
+}
+
 .section-title-project::after {
   position: absolute;
   content: "";
@@ -164,10 +198,14 @@ img {
 /* Tech Section */
 
 /* Features */
-.features-container {
-  margin-bottom: var(--mb-4);
-  /* justify-content: center;
-  align-items: center; */
+.features-content-container {
+  align-items: center;
+}
+.features {
+  text-align: start;
+  list-style: circle;
+  line-height: 1.5rem;
+  padding-top: var(--mb-2);
 }
 
 .features-container > ul {
@@ -175,8 +213,7 @@ img {
 }
 
 .gif-picture {
-  margin-bottom: var(--mb-4);
-  height: 12.2rem;
+  padding-bottom: var(--mb-2);
 }
 
 /* Challenge Area */
@@ -229,7 +266,7 @@ img {
   list-style: circle;
 }
 
-/* Ipad */
+/* /* Ipad ///////////////////////////////////////////// */
 
 @media screen and (min-width: 768px) {
   .project-section-picture {
@@ -240,11 +277,30 @@ img {
 
     grid-template-areas: "details projectpic";
   }
+  .project-section-picture {
+    width: 120%;
+    margin-top: 0;
+    margin-left: 20px;
+    display: grid;
+
+    grid-template-areas: "details projectpic";
+  }
+
+  .project__title {
+    margin-top: 6rem;
+    font-size: 2.5rem;
+  }
 
   .project-picture {
     grid-area: projectpic;
     height: 300px;
     margin-bottom: 10rem;
+  }
+
+  .project-info {
+    grid-area: details;
+    width: 23rem;
+    padding: 1rem;
   }
 
   .project__img {
@@ -253,16 +309,16 @@ img {
     /* margin-bottom: 10rem; */
   }
 
-  .project-info {
-    grid-area: details;
-    width: 23rem;
-    padding: 1rem;
-  }
+  /* Feature */
+
   .nav__toggle {
     margin-right: var(--mb-2);
     /* margin-left: -680px; */
   }
 
+  .features__info {
+    padding-left: 0;
+  }
   .section-title-project {
     font-size: 2.5rem;
     margin-top: 7rem;
@@ -271,11 +327,30 @@ img {
     padding-left: 2rem;
   }
 
+  .section-title-project::after {
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 0.18rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 2rem;
+    background-color: var(--first-colour);
+  }
   .info-content {
     text-align: left;
     margin-right: 0;
   }
 
+  .description {
+    text-align: start;
+    width: 380px;
+  }
+  .tech-line {
+    margin-left: 0;
+    width: 23.5rem;
+  }
   .summary-content {
     align-items: center;
     justify-content: center;
@@ -295,7 +370,10 @@ img {
   }
 
   .section-title-project::after {
-    display: none;
+    margin-top: var(--mb-1);
+  }
+  .features__heading::after {
+    margin-top: var(--mb-1);
   }
 
   .summary {
@@ -314,13 +392,6 @@ img {
     margin-top: var(--mb-2);
     margin-bottom: var(--mb-2);
   }
-  /* 
-  .summary-title {
-    width: 38rem;
-    margin-left: 5rem;
-    padding-left: 3rem;
-    margin-top: 2rem;
-  } */
 
   /* Features */
 
@@ -329,29 +400,20 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .features-container {
-    justify-content: center;
-
-    width: 385px;
-    padding-left: 3rem;
+  .features__heading {
+    font-size: 2rem;
+    margin-left: 6rem;
   }
-  .features-title {
-    margin-top: 2rem;
-    margin-left: -10px;
+  .project-name {
+    margin-left: -2rem;
+    text-align: start;
   }
 
-  .gif-container {
-    width: 407px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    padding-top: 3rem;
-  }
-
-  .gif-picture {
-    /* margin-left: 20px; */
+  .gif__image {
     width: 300px;
+    height: 200px;
+    padding-left: 4rem;
+    padding-top: var(--mb-2);
   }
 
   .challenges-title {
@@ -377,16 +439,49 @@ img {
     margin-left: 180px;
   }
 
+  .sub-headings {
+    font-size: 2rem;
+    padding-left: 0;
+  }
+
+  .feature-section {
+    margin-left: 3rem;
+  }
   /* .challenges-title {
     =margin-left: 2rem;
   } */
+  .short-info-container {
+    width: 300px;
+  }
 }
 
-/* Iphone X horizontal */
+/* Iphone X horizontal////////////////////////////// */
+
+@media screen and (min-width: 811px) {
+  nav {
+    padding-right: var(--mb-2);
+  }
+
+  .gif__container {
+    width: 160%;
+  }
+  .gif__image {
+    padding-top: 1.5rem;
+    padding-left: 6rem;
+  }
+
+  .features__section {
+    margin-left: -0.2rem;
+  }
+
+  .project__title {
+    text-align: start;
+  }
+}
 
 @media screen and (min-width: 1024px) {
   nav {
-    padding-right: var(--mb-3);
+    padding-right: var(--mb-6);
   }
 
   .features-ramen {
@@ -407,12 +502,41 @@ img {
     width: 90%;
     margin-left: 20px;
   }
+
+  .sub-headings {
+    font-size: 2rem;
+  }
+
+  .features-content-container {
+    margin-left: 5rem;
+    width: 90%;
+  }
+
+  .gif-img {
+    width: 400px;
+  }
+
+  .features__heading {
+    margin-right: 5rem;
+  }
+
+  .features__heading::after {
+    margin-top: 0;
+  }
+
+  .gif__image {
+    height: 300px;
+    width: 400px;
+  }
+  .features__info {
+    padding-left: 3rem;
+  }
 }
 
-/* Ipad Horizontal */
+/* Normal Horizontal */
 @media screen and (min-width: 1347px) {
   nav {
-    padding-right: var(--mb-4);
+    padding-right: 13rem;
   }
   .challenges-title {
     margin: auto;
@@ -442,9 +566,6 @@ img {
     padding-bottom: 3rem;
   }
 
-  .features-title {
-    text-align: start;
-  }
   .project-section-features {
     padding: auto;
     display: flex;
@@ -460,36 +581,84 @@ img {
   .gif-picture {
     height: 100%;
     width: 90%;
-    /* margin-left: 20px; */
+    justify-content: start; /* margin-left: 20px; */
+    align-items: flex-start;
   }
 
   .challenges-title {
     margin-bottom: var(--mb-2);
   }
 
-  .test-container {
-    align-items: center;
-    width: 80%;
-    margin-left: 150px;
+  .features-content-container {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 70%;
   }
-  .test {
+
+  .section-title-project::after {
+    margin-top: 0;
+  }
+
+  .feature-section {
+    margin-left: 15rem;
+  }
+  .features {
     text-align: start;
     list-style: circle;
     line-height: 1.5rem;
-    width: 400px;
+    width: 350px;
+  }
+
+  .features > li {
+    margin-bottom: var(--mb-2);
   }
 
   .gif-img {
-    padding-top: 150px;
     height: 250px;
     width: 400px;
-    padding-left: 110px;
   }
 
   .gif-picture {
     display: flex;
-    justify-content: flex-end;
+
     align-items: center;
     align-content: center;
+  }
+
+  .gif__image {
+    height: 280px;
+    width: 380px;
+  }
+  .features__info {
+    padding-left: 3rem;
+  }
+
+  .features__section {
+    margin-left: -1rem;
+  }
+  .project-name {
+    margin-left: 0;
+  }
+
+  .sub-headings {
+    font-size: 1.7rem;
+  }
+
+  .features__heading {
+    font-size: 1.7rem;
+  }
+
+  .challenges-title {
+    padding-left: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 1480px) {
+  .features__section {
+    margin-left: -1rem;
+  }
+  .gif__image {
+    height: 280px;
+    width: 430px;
   }
 }
