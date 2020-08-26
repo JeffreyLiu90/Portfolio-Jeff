@@ -303,6 +303,7 @@ img {
     margin-top: 6rem;
     font-size: 2.5rem;
     text-align: start;
+    margin-left: 0;
   }
 
   .project-picture {
