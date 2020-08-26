@@ -102,6 +102,7 @@ img {
   color: var(--first-colour);
 
   margin-bottom: var(--mb-4);
+  margin-left: -1.3rem;
   text-align: center;
   width: 350px;
 }
@@ -127,6 +128,9 @@ img {
   background-color: var(--first-colour);
 }
 
+.features__section {
+  margin-left: 1rem;
+}
 .section-title-project::after {
   position: absolute;
   content: "";
@@ -268,6 +272,11 @@ img {
 
 .features-ramen-container > ul {
   list-style: circle;
+}
+
+.project-section {
+  margin-left: -2.85rem;
+  width: 105vw;
 }
 
 /* /* Ipad ///////////////////////////////////////////// */
