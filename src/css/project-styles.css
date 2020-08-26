@@ -650,7 +650,8 @@ img {
 
   .gif__image {
     height: 280px;
-    width: 380px;
+    width: 350px;
+    padding-left: 2.2rem;
   }
   .features__info {
     padding-left: 3rem;
@@ -683,7 +684,7 @@ img {
   }
   .gif__image {
     height: 280px;
-    width: 430px;
+    width: 400px;
   }
 
   .challenges-title {
