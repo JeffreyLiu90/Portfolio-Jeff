@@ -605,7 +605,7 @@ img {
   .home__img {
     position: absolute;
     right: 5%;
-    bottom: 30px;
+    margin-bottom: 8rem;
     width: 205px;
   }
 
@@ -801,7 +801,7 @@ img {
 
 @media screen and (min-width: 1768px) {
   .home__img {
-    margin-bottom: 30px;
+    margin-bottom: 0;
     width: 500px;
     height: 500px;
   }
@@ -846,5 +846,29 @@ img {
 @media screen and (min-width: 1046px) {
   .work__img {
     width: 100%;
+  }
+}
+
+/* Iphone 8 Vertical */
+
+@media screen and (min-width: 667px) and (max-width: 710px) {
+  .home__title {
+    margin-top: 3rem;
+  }
+
+  .home__social {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .home__social-icon {
+    margin-right: var(--mb-3);
+  }
+
+  .home__img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 265px;
   }
 }
