@@ -940,7 +940,7 @@ img {
 }
 @media screen and (min-width: 375px) and (max-height: 668px) and (orientation: portrait) {
   .home__title {
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
 
   .home__social-icon {
@@ -953,7 +953,7 @@ img {
     right: 1;
     bottom: 0;
     margin-bottom: 6rem;
-    width: 200px;
+    width: 180px;
   }
 }
 
