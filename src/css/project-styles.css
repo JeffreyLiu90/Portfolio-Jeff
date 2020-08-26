@@ -103,6 +103,7 @@ img {
 
   margin-bottom: var(--mb-4);
   text-align: center;
+  width: 350px;
 }
 
 .features__heading {
@@ -208,6 +209,9 @@ img {
   padding-top: var(--mb-2);
 }
 
+.feature__list {
+  list-style: circle;
+}
 .features-container > ul {
   list-style: circle;
 }
@@ -289,6 +293,7 @@ img {
   .project__title {
     margin-top: 6rem;
     font-size: 2.5rem;
+    text-align: start;
   }
 
   .project-picture {
@@ -319,6 +324,7 @@ img {
   .features__info {
     padding-left: 0;
   }
+
   .section-title-project {
     font-size: 2.5rem;
     margin-top: 7rem;
@@ -463,7 +469,6 @@ img {
   }
 
   .gif__container {
-    width: 160%;
   }
   .gif__image {
     padding-top: 1.5rem;
@@ -479,6 +484,7 @@ img {
   }
 }
 
+/* Ipad Horizontal */
 @media screen and (min-width: 1024px) {
   nav {
     padding-right: var(--mb-6);
@@ -512,25 +518,41 @@ img {
     width: 90%;
   }
 
+  .features-content {
+    display: flex;
+    justify-content: center;
+  }
+  .challenges-title {
+    margin-left: 25rem;
+  }
+
   .gif-img {
     width: 400px;
   }
 
   .features__heading {
-    margin-right: 5rem;
+    margin-left: 9rem;
     margin-bottom: 0;
+    margin-top: 2rem;
   }
 
   .features__heading::after {
-    margin-top: 0;
+    margin-top: 0.5rem;
   }
 
+  .features {
+    padding-left: 0;
+  }
+
+  .features__section {
+    margin-left: -3rem;
+  }
   .gif__image {
     height: 300px;
     width: 400px;
   }
   .features__info {
-    padding-left: 3rem;
+    width: 400px;
   }
 }
 
@@ -647,6 +669,7 @@ img {
 
   .features__heading {
     font-size: 1.7rem;
+    margin-left: 0;
   }
 
   .challenges-title {
@@ -661,5 +684,9 @@ img {
   .gif__image {
     height: 280px;
     width: 430px;
+  }
+
+  .challenges-title {
+    padding-left: 0;
   }
 }
