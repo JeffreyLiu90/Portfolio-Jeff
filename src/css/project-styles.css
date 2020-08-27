@@ -283,7 +283,7 @@ img {
 
 /* Iphone 8  */
 
-@media screen and (min-width: 667px) {
+@media screen and (min-width: 375px) and (max-height: 668px) and (orientation: landscape) {
   .project-section-picture {
     width: 120%;
     margin-top: 0;
@@ -317,8 +317,38 @@ img {
     margin-top: 6rem;
     height: 320px;
   }
+
+  .gif__container {
+    padding-bottom: 5rem;
+  }
+  .gif__image {
+    margin-top: 0;
+    width: 330px;
+    margin-left: 3rem;
+  }
   .description {
     text-align: start;
+  }
+
+  .info-content {
+    width: 650px;
+    margin-left: -11.5rem;
+  }
+  .project-section {
+    width: 800px;
+  }
+  .features__section {
+    width: 750px;
+    margin-left: -1rem;
+  }
+
+  .features {
+    padding-left: 0;
+    width: 300px;
+  }
+
+  .features__info {
+    width: 3000px;
   }
   .project-info {
     grid-area: details;
