@@ -281,6 +281,52 @@ img {
 
 /* /* Ipad ///////////////////////////////////////////// */
 
+/* Iphone 8  */
+
+@media screen and (min-width: 667px) {
+  .project-section-picture {
+    width: 120%;
+    margin-top: 0;
+    margin-left: 20px;
+    display: grid;
+
+    grid-template-areas: "details projectpic";
+  }
+  .project-section-picture {
+    width: 120%;
+    margin-top: 0;
+    margin-left: 20px;
+    display: grid;
+
+    grid-template-areas: "details projectpic";
+  }
+
+  .project__title {
+    margin-top: 6rem;
+    font-size: 2.5rem;
+    text-align: start;
+    margin-left: 0;
+  }
+
+  .project-picture {
+    grid-area: projectpic;
+    height: 320px;
+    margin-bottom: 6rem;
+  }
+  .project__img {
+    margin-top: 6rem;
+    height: 320px;
+  }
+  .description {
+    text-align: start;
+  }
+  .project-info {
+    grid-area: details;
+    width: 15rem;
+    padding: 1rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .project-section-picture {
     width: 120%;
