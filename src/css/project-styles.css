@@ -777,3 +777,32 @@ img {
     padding-left: 0;
   }
 }
+
+@media screen and (min-width: 375px) and (max-height: 812px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+  .project__img {
+    margin-top: 0;
+  }
+
+  .features {
+    padding-left: 3rem;
+  }
+
+  .features__section {
+    padding-left: 0;
+    padding-right: 3rem;
+  }
+
+  .gif__image {
+    margin-left: 0;
+    width: 380px;
+    height: 280px;
+  }
+
+  .project-section {
+    width: 950px;
+  }
+
+  .info-content {
+    width: 790px;
+  }
+}
