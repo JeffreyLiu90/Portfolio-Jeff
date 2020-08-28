@@ -278,6 +278,13 @@ img {
   margin-left: -2.85rem;
   width: 105vw;
 }
+.project-github {
+  padding-left: 1rem;
+}
+
+.project__github__link {
+  margin-bottom: 2rem;
+}
 
 /* /* Ipad ///////////////////////////////////////////// */
 
@@ -643,6 +650,7 @@ img {
 }
 
 /* Normal Horizontal */
+
 @media screen and (min-width: 1347px) {
   nav {
     padding-right: 13rem;
@@ -762,6 +770,9 @@ img {
   .challenges-title {
     padding-left: 2.2rem;
   }
+  .project-contact {
+    margin-left: 1rem;
+  }
 }
 
 @media screen and (min-width: 1480px) {
@@ -778,6 +789,12 @@ img {
   }
 }
 
+/* Iphone X */
+@media screen and (min-width: 375px) and (max-height: 812px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+  .project-contact {
+    padding-left: 1.5rem;
+  }
+}
 @media screen and (min-width: 375px) and (max-height: 812px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
   .project__img {
     margin-top: 0;
@@ -804,5 +821,55 @@ img {
 
   .info-content {
     width: 790px;
+  }
+
+  .challenges-title {
+    padding-left: 1.5rem;
+  }
+}
+
+/* Iphone 8 Landscape */
+@media screen and (min-width: 375px) and (max-height: 668px) and (orientation: portrait) {
+  .project-contact {
+    margin-left: 1.5rem;
+  }
+}
+@media screen and (min-width: 375px) and (max-height: 668px) and (orientation: landscape) {
+  .features__heading {
+    margin-left: 7rem;
+  }
+
+  .gif__image {
+    padding-left: 2rem;
+  }
+  .project-contact {
+    margin-left: 9rem;
+  }
+}
+
+/* New IPADD */
+@media screen and (min-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+  .project-section {
+    width: 900px;
+  }
+
+  .project-contact {
+    margin-left: 9rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-height: 1024px) and (orientation: landscape) {
+  .project-contact {
+    margin-left: 12rem;
+  }
+}
+
+@media screen and (min-width: 1248px) {
+  .project-contact {
+    margin-left: 0;
+  }
+
+  .challenges-title {
+    padding-right: 2rem;
   }
 }
